@@ -9,7 +9,7 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 
 public class CryptoUtils {
-	private static final String SECRET_KEY = "NWSwa0YyeF4tAa2N6HMfMsxF8s3ngLET";
+	private static final String SECRET_KEY = "#########################################";
 
 	public static String encrypt(String plainText) throws Exception {
 		SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
